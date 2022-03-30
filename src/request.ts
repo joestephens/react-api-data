@@ -1,4 +1,5 @@
 import { RequestHandler } from './types';
+import fetch from 'node-fetch';
 
 const __DEV__ = process.env.NODE_ENV === 'development';
 
